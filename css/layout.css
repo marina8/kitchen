@@ -259,6 +259,12 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	.ba-width-medium-2-5 {
 		width: 40%;
 	}
+	.ba-width-medium-3-4{
+		width: 75%;
+	}
+	.ba-width-medium-3-7{
+		width:42.857%;
+	}
 }
 
 @media (min-width: 960px) {
@@ -290,6 +296,9 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	}
 	.ba-width-large-2-5 {
 		width: 40%;
+	}
+	.ba-width-large-3-7{
+		width:42.857%;
 	}
 }
 
@@ -324,3 +333,4 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 		width: 40%;
 	}
 }
+

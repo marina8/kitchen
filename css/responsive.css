@@ -1,16 +1,7 @@
-.km-menu-toggle{
-	color:#fff;
-	top:0;
-	width: 74px;
-	font-size: 40px;
-	text-align: center;
-}
 
 /*small*/
 @media (max-width: 480px) {
-	.km-testimonials-row .left-comment{
-		margin-left:0;
-	}
+
 	.km-contact-row .km-footer-menu,
 	.km-subscribe-content{
 		padding-left:0;
@@ -21,74 +12,165 @@
 	}
 
 
+
+
 }
 /*medium*/
-@media (min-width: 768px) {
 
+
+@media (max-width: 768px){
+	.km-testimonials-row .km-comment-content{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.km-testimonials-row .ba-grid > [class*="ba-width"]{
+		float:none;
+	}
+	.km-testimonials-row .name-content{
+		right:-10px;
+	}
+
+	.km-contact-row .ba-width-medium-1-4,
+	.km-contact-row .ba-width-medium-1-2{
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+	}
+	.km-contact-row .ba-grid > [class*="ba-width"]{
+		float:none;
+
+	}
+	.km-contact-row .km-footer-menu{
+		padding-left: 30px;
+		margin-bottom:20px;
+		margin-top:20px;
+	}
+
+	.km-subscribe-content {
+		margin:auto;
+	}
+	.km-contact-row .km-menu-list{
+		height:100%;
+	}
+	.km-contact-row  .km-menu-list{
+		margin-top:30px;
+		height:100%;
+	}
+	.km-submit-arrow{
+	display:none;
+	}
+	.km-subscribe-content{
+		margin:auto;
+		text-align:left;
+	}
+	.km-email-field{
+		width:100%;
+	}
 
 }
 /*large*/
 @media (min-width: 960px) {
-	.km-menu-toggle{
-		display:none;
-	}
+
+
+
 }
+
 @media (max-width: 959px){
-
-	.km-top-nav ul{
-	position:fixed;
-	top: 100px;
-	left:0;
-	bottom:0;
-	-moz-transition: -moz-transform .4s, right .4s ease-in;
-	-webkit-transition:	-webkit-transform .4s, right .4s ease-in;
-	transition:	transform .4s, right .4s ease-in;
-}
-	.km-top-nav ul{
-
-		width: 242px;
-		background: #323b43;
-		z-index: 999;
-		padding:20px;
-		-moz-transform: translateX(100%);
-		-webkit-transform: translateX(100%);
-		transform: translateX(100%);
+	.km-top-nav{
+		padding-top:20px;
 	}
-	.km-top-nav ul {
-		-moz-transform: translateX(0);
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
-	}
-	.km-top-nav ul li{
-		float:none;
+	nav ul li {
+		display: block;
+		height:28px;
 
 	}
-	.km-top-nav ul li a{
-
-		line-height: 2;
-		height: auto;
-		padding: 0 0 20px;
+	nav ul{
+		margin-bottom:50px;
 	}
+
 	.km-top-nav .logo{
 		font-size: 14px;
-		color: rgba( 255, 255, 255, 0.6 )
 	}
-	.ba-container{
+	.km-svg{
+		margin-top:70px;
+	}
+	.ba-container,
+	.ba-container-special{
 		padding:0 20px;
 	}
-	.km-contact-row  .km-menu-list{
+	.km-testimonials-row .km-comment-content,
+	.km-contact-row .km-comment-content{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.km-testimonials-row .km-comment-content{
+	margin-bottom:30px;
+	}
+	.km-testimonials-row .ba-grid > [class*="ba-width"],
+	.km-contact-row .ba-grid > [class*="ba-width"]{
+		float:none;
+	}
+	.km-testimonials-row .name-content{
+		right:-10px;
+	}
+
+	.km-subscribe-content {
+		margin:auto;
+	}
+	.km-contact-row .km-menu-list{
 		padding-right:30px;
 		border-left:none;
 		border-right:none;
+		border-top:1px dotted #a1a1a1;
+		border-bottom:1px dotted #a1a1a1;
+		width:60%;
 
 	}
 	.km-subscribe-content{
 		padding-left:0;
 	}
 	.km-subscribe-content{
-		width:50%;
+		width:100%;
+	}
+
+	.km-contact-row .ba-width-medium-1-4,
+	.km-contact-row .ba-width-medium-1-2{
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+	}
+	.km-contact-row .ba-grid > [class*="ba-width"]{
+		float:none;
+
+	}
+	.km-contact-row .km-footer-menu{
+		padding-left: 30px;
+		margin-bottom:20px;
+		margin-top:20px;
+	}
+
+	.km-subscribe-content {
+		margin:auto;
+	}
+	.km-contact-row .km-menu-list{
+		height:100%;
+	}
+	.km-contact-row  .km-menu-list{
+		margin-top:30px;
+		height:100%;
+	}
+	.km-submit-arrow{
+		display:none;
+	}
+	.km-subscribe-content{
+		margin:auto;
+		text-align:left;
+	}
+	.km-email-field{
+		width:100%;
 	}
 }
+
 
 @media (min-width: 1220px) {
 

@@ -65,12 +65,12 @@ body{
 }
 
 .ba-container{
-	width: 940px;
+	max-width: 940px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .ba-container-special{
-	width: 780px;
+	max-width: 780px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -171,11 +171,12 @@ h2, p{
 }
 .km-register-row .km-register-content{
 	transform: skewY(-9deg);
-	/*padding-top: 150px;*/
+
 }
 .km-register-row img{
 	margin-top:-86px;
 	overflow:hidden;
+	max-width: 100%;
 }
 
 .button{
@@ -198,7 +199,7 @@ h2, p{
 /*Testimonials*/
 .km-testimonials-row{
 	padding-bottom: 50px;
-	/*margin-bottom:200px;*/
+
 }
 .km-testimonials-row h1 {
 	font: 30px "OstrichSansBlack", Arial, sans-serif;
@@ -242,22 +243,19 @@ h2, p{
 	left:282px;
 	padding-top:7px;
 	margin-left:-5px;
-/*	bottom: -47px;*/
+
 
 }
 .km-testimonials-row .ba-border-circle{
 	left:220px;
-/*	bottom: -50px;*/
+
 }
-.km-testimonials-row .km-comment-content{
-	padding-right:80px;
-}
+
 .km-testimonials-row .km-comment-content>p{
 	padding-right:10px;
 }
 .km-testimonials-row .left-comment{
-	margin-left:560px;
-	padding-right:90px;
+	margin-left:57%;
 
 }
 .km-testimonials-row .left-comment>p{
@@ -319,10 +317,16 @@ h2, p{
 	color: rgba(161, 161, 161, .6);
 	transition:color .2s, ease-in;
 }
-.km-contact-row .km-footer-menu a{
+.km-contact-row .km-footer-menu li a{
 	text-decoration: none;
 	color:#fff;
 
+}
+.km-contact-row ul li a:hover{
+	color:#f39c12;
+	-webkit-transition: color .5s, ease;
+	-moz-transition: color .5s, ease;
+	transition: color .5s, ease;
 }
 .km-contact-row .km-footer-menu{
 	padding-left:80px;
@@ -371,4 +375,8 @@ p.km-footer-text{
 }
 .km-copyright{
 	font:14px "ProximaNovaRegular", Arial, sans-serif;
+}
+.km-copyright .km-bold-text{
+	font-weight: 600;
+	color: #fff;
 }
